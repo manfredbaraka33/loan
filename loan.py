@@ -33,7 +33,7 @@ if st.button('Predict Loan Approval'):
  ]       
     
     # Load the loan dataset
-    loan_dataset = pd.read_csv("D:/New folder (4)/loan.csv")
+    loan_dataset = pd.read_csv("loan.csv")
     # dropping the missing values
     loan_dataset = loan_dataset.dropna()
     
