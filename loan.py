@@ -22,7 +22,7 @@ self_employed = st.number_input('Self Employed("No:0,Yes:1")', help="Are you sel
 applicant_income = st.number_input('Applicant Income in USD', help="Enter your monthly income in USD")
 coapplicant_income = st.number_input('Coapplicant Income in USD', help="Enter co-applicant's monthly income in USD")
 loan_amount = st.number_input('Loan Amount in USD', help="Enter the requested loan amount in USD")
-loan_amount_term = st.number_input('Loan Amount Term in years', help="Enter the term of the loan in months",min_value=0)
+loan_amount_term = st.number_input('Loan Amount term in months', help="Enter the term of the loan in months",min_value=0)
 credit_history = st.number_input("Credit History('No':0, 'Yes':1)",min_value=0,max_value=1 , help="Do you have a credit history?")
 property_area = st.number_input("Property Area('Rural':0,'Semiurban':1,'Urban':2)", min_value=0,max_value=2, help="Select the area where you reside")
 
