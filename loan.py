@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 
 # Main Streamlit app
-st.title('ElopyX finances')
+st.title('ElopyX finances(mwambaaa!)')
 
 st.write('Enter the details below to predict loan approval:')
 
